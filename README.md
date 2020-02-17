@@ -17,7 +17,7 @@ There is one last simple thing to do. We need to identify which customers fall i
 
 1- Predict the probabilities of being in each group for all customers: we are going to build a multi-classification model for that.
 2- We will calculate the uplift score. Uplift score formula is:
-(C:\Users\kanum\Desktop\Akshata\mini_projects\Uplift_Model\uplift_formula.png)
+(uplift formula.png)
 
 We will sum up the probability of being TR and CN and subtract the probability of falling into other buckets. The higher score means higher uplift.
 
